@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 Forms</title>
+    <style>
+        table {
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Nama : Muhammad Afdal Adiguna</p>
+    <p>NIM : 13020210193</p>
+
+
+    <h2>Tugas A - Form Login</h2>
+    <table>
+        <caption>Silahkan Login Terlebih Dahulu</caption>
+        <tr>
+            <td>Username</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <button>Login</button>
+                <button>Reset</button>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Tugas B - Forms Osis</h2>
+    <table>
+        <caption style="background-color: blue"><b>FORM PENDAFTARAN OSIS</b></caption>
+        <tr>
+            <td>Nama Lengkap</td>
+            <td><input type="text" placeholder="Nama Lengkap"></td>
+        </tr>
+        <tr>
+            <td>Nama Panggilan</td>
+            <td><input type="text" placeholder="Nama Panggilan"></td>
+        </tr>
+        <tr>
+            <td>Tempat Tanggal Lahir</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+                <label for="laki">Laki-Laki</label><input type="radio" id="laki" name="jk">
+                <label for="perempuan">Perempuan</label><input type="radio" id="perempuan" name="jk">
+            </td>
+        </tr>
+        <tr>
+            <td>Nomor Telepon</td>
+            <td><input type="number" placeholder="Nomor Telepon"></td>
+        </tr>
+        <tr>
+            <td>Jurusan</td>
+            <td>
+                <label for="ipa">IPA</label>
+                <input type="radio" id="ipa" name="jurusan">
+                <label for="ips">IPS</label>
+                <input type="radio" id="ips" name="jurusan">
+                <label for="bahasa">Bahasa</label>
+                <input type="radio" id="bahasa" name="jurusan">
+            </td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td><select name="agama" id="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>
+                <label for="buku">Membaca Buku</label>
+                <input type="checkbox" id="buku" name="buku">
+                <label for="menulis">Menulis</label>
+                <input type="checkbox" id="menulis" name="menulis">
+            </td>
+        </tr>
+        <tr>
+            <td>Alasan/Motivasi untuk mendaftar</td>
+            <td><textarea name="alasan" id="alasan" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>Foto 3X4</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <button>Daftar</button>
+                <button>Reset</button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

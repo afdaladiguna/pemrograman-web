@@ -1,0 +1,94 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url('img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    background-color: #2E4F4F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav .home-logo img {
+    padding: 15px;
+    width: 85px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: auto 13px;
+    color: #CBE4DE;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+nav .nav-logo img {
+    width: 180px;
+}
+
+main, #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    margin: 0 auto;
+    color: #CBE4DE;
+}
+
+#title {
+    margin: 20px 0;
+    text-align: center;
+    color: #CBE4DE;
+}
+
+main div {
+    margin: 0 30px;
+}
+
+main div#contact {
+    margin-left: 180px;
+    text-align: center;
+}
+
+main div h1 {
+    font-size: 42px;
+}
+
+main div p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main div img {
+    width: 300px;
+}
+
+main div ul li {
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+main .contact {
+    width: 100px;
+}
+
+main .contact-title {
+    font-size: 22px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tugas 2 - Forms</h1>
+    <hr>
+
+    <h2>Form Login</h2>
+    <section>
+        <form action="">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <button>Login</button>
+            <button>Reset</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <h2>Form Pendaftaran Osis</h2>
+    <section>
+        <form action="">
+            <div>
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" placeholder="Nama Lengkap">
+            </div>
+            <div>
+                <label for="namaP">Nama Panggilan</label>
+                <input type="text" id="namaP">
+            </div>
+            <div>
+                <label for="ttl">Tempat Tanggal Lahir</label>
+                <input type="text" id="ttl">
+            </div>
+            <div>
+                <label>Jenis Kelamin</label>
+                <input type="radio" id="laki" name="jk" value="laki">
+                <label for="laki">Laki-Laki</label>
+                <input type="radio" id="perempuan" name="jk" value="laki">
+                <label for="perempuan">Perempuan</label>
+            </div>
+            <div>
+                <label for="noTelp">Nomor Telepon</label>
+                <input type="number" id="noTelp">
+            </div>
+            <div>
+                <label>Jurusan</label>
+                <input type="radio" id="ipa" name="jurusan" value="ipa">
+                <label for="ipa">IPA</label>
+                <input type="radio" id="ips" name="jurusan" value="ips">
+                <label for="ips">IPS</label>
+                <input type="radio" id="bahasa" name="jurusan" value="bahasa">
+                <label for="bahasa">Bahasa</label>
+            </div>
+            <div>
+                <label for="agama">Agama</label>
+                <select name="agama" id="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                </select>
+            </div>
+            <div>
+                <label for="alasan">Alasan/Motivasi untuk mendaftar</label>
+                <textarea name="alasan" id="alasan" cols="30" rows="10"></textarea>
+            </div>
+            <tr>
+                <td>Foto 3X4</td>
+                <td>
+                    <button>Choose File</button>
+                    <span>No file chosen</span>
+                </td>
+            </tr>
+
+            <button>Daftar</button>
+            <button>Reset</button>
+
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>
